@@ -7,6 +7,8 @@ build:
     version: 0.1
     env: DEV
     build_file: none
+    args:
+     BUILD_ENV: "build"
     output_files: output/*.zip
     image_template: node-14.16
 
@@ -20,4 +22,4 @@ deploy:
 properties:
     page_title: "React-bootstrap + nodejs-express App"
     revision: 18
-    page_color: Green
+    page_color: Red
