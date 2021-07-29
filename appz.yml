@@ -1,7 +1,7 @@
 app:
     name: Hello Node
     code: hellonode
-    notify: aborra@ecloudcontrol.com
+    notify: eachakala@ecloudcontrol.com
 
 build:
     version: 0.1
@@ -13,7 +13,7 @@ build:
     image_template: node-14.16
 
 deploy:
-    context: anushab7/DEV
+    context: eeshaachakala1/DEV
     replicas: 1
     port:
     - 8080
