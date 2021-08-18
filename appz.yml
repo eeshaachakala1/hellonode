@@ -10,7 +10,7 @@ build:
     args:
      NPM_RUN_SCRIPT: "prod:build"
     output_files: output/*.zip
-    image_template: node-14.16
+    image_template: node-14.17
 
 deploy:
     context: eeshaachakala1/DEV
