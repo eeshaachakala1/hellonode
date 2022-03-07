@@ -14,7 +14,7 @@ build:
 
 deploy:
     context: eeshaachakala1/DEV
-    ingress: default
+    ingress: hellonode-0-1
     replicas: 1
     port:
     - 8080
