@@ -10,11 +10,11 @@ build:
     args:
      NPM_RUN_SCRIPT: "build"
     output_files: output/*.zip
-    image_template: node-14.17
+    image_template: node-14.16
 
 deploy:
     context: eeshaachakala1/DEV
-    ingress: service
+    ingress: none
     replicas: 1
     port:
     - 8080
