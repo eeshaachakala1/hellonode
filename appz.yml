@@ -14,7 +14,6 @@ build:
 
 deploy:
     context: eeshaachakala1/DEV
-    ingress: none
     replicas: 1
     port:
     - 8080
