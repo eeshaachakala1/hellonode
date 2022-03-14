@@ -14,8 +14,8 @@ build:
 
 deploy:
     context: eeshaachakala1/DEV
-    oidc: inherit
-    ingress: service
+    oidc: enable
+    ingress: service_namespace
     replicas: 1
     port:
     - 8080
