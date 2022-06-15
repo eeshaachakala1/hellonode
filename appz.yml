@@ -15,7 +15,7 @@ build:
 deploy:
     context: eeshaachakala1/DEV
     replicas: 1
-    resources: small
+    resources: large
     port:
     - 8080
     - 80
