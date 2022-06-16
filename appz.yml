@@ -5,7 +5,7 @@ app:
 
 build:
     version: 0.1
-    env: DEV
+    env: PROD
     build_file: none
     args:
      NPM_RUN_SCRIPT: "build"
@@ -13,9 +13,8 @@ build:
     image_template: node-14.16
 
 deploy:
-    context: eeshaachakala1/DEV
+    context: eeshaachakala1/PROD
     replicas: 1
-    resources: xx-large-himem
     port:
     - 8080
     - 80
