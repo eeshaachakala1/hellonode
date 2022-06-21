@@ -15,7 +15,6 @@ build:
 deploy:
     context: eeshaachakala1/DEV
     replicas: 1
-    resources: xx-large-himem
     port:
     - 8080
     - 80
