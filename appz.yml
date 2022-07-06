@@ -9,6 +9,7 @@ build:
     build_file: none
     args:
      NPM_RUN_SCRIPT: "build"
+     SSH_INCLUDE_PK=/appz/keys/id_rsa
     output_files: output/*.zip
     image_template: node-14.16
 
