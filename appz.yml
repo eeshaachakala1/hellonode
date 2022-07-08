@@ -5,16 +5,15 @@ app:
 
 build:
     version: 0.1
-    env: DEV
+    env: PROD
     build_file: none
     args:
      NPM_RUN_SCRIPT: "build"
-     SSH_INCLUDE_PK: /appz/keys/id_rsa
     output_files: output/*.zip
     image_template: node-14.16
 
 deploy:
-    context: eeshaachakala1/DEV
+    context: eeshaachakala1/PROD
     replicas: 1
     port:
     - 8080
