@@ -5,7 +5,7 @@ app:
 
 build:
     version: 0.1
-    env: PROD
+    env: DEV
     build_file: none
     args:
      NPM_RUN_SCRIPT: "build"
@@ -13,7 +13,7 @@ build:
     image_template: node-14.16
 
 deploy:
-    context: eeshaachakala1/PROD
+    context: eeshaachakala1/DEV
     replicas: 1
     port:
     - 8080
